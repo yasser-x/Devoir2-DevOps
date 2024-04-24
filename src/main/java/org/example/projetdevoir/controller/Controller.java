@@ -15,4 +15,9 @@ public class Controller {
     public String helloDev(){
         return "Hello Dev";
     }
+
+    @GetMapping("/dev-yasser")
+    public String helloDevYasser(){
+        return "hello from dev yasser";
+    }
 }
